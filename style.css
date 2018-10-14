@@ -1,0 +1,193 @@
+body {
+    min-width: 320px;
+    background-color: #703030;
+    color: #2f343b;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 10px 0 10px;
+}
+
+a:link {
+    color: #703030;
+}
+
+a:visited {
+    color: #703030;
+}
+
+a:hover {
+    color: #a06060;
+}
+
+a:active {
+    color: #2f343b;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* User Story #9 */
+    background-color: #eeeeee;
+    margin: 0 -20px 40px -20px;
+}
+
+figcaption {
+    padding: 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;        /* User Story #8 */
+    height: auto;
+}
+
+.container {
+    max-width: 1060px;
+    padding: 30px 20px;
+    background-color: #c3c4c0;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.timeline img {
+    margin: 20px 0 40px;
+}
+
+.timeline ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline li {
+    margin-bottom: 25px;
+}
+
+.timeline p {
+    margin-top: 0;
+}
+
+blockquote {
+    background-color: #eeeeee;
+    margin: 50px 0 20px;
+    padding: 25px 20px 10px;
+    font-style: italic;
+    position: relative;
+}
+
+blockquote::before {
+    content: '“';
+    font-family: 'Great Vibes', cursive;
+    font-style: normal;
+    font-size: 25rem;
+    position: absolute;
+    left: -10px;
+    top: 160px;
+    color: #703030;
+    opacity: 0.25;
+}
+
+cite {
+    display: block;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 420px) {
+    body {
+        font-size: 1.125em;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    figcaption {
+        padding: 20px 50px;
+    }
+    
+    .timeline ul {
+        margin: 20px 100px 50px 100px;
+        padding-left: 50px;
+        border-left: 1px solid #703030;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 5rem;
+        position: relative;
+        top: 10px;
+    }
+    
+    h2 {
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+        font-size: 4rem;
+    }
+    
+    figure {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 80px;
+    }
+    
+    #tribute-info {
+        background-color: #eeeeee;
+        padding: 50px;
+    }
+    
+    .container {
+        margin: 10px auto;
+        padding: 30px 50px;
+    }
+    
+    .timeline {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    
+    .timeline img {
+        margin-top: 0;
+    }
+    
+    .timeline ul {
+        margin: 0 0 0 50px;
+    }
+    
+    .quote {
+        margin-top: 80px;
+    }
+}
+
+
+
